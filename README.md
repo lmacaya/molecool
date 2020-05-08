@@ -21,3 +21,7 @@ Copyright (c) 2020, Luis Macaya
 
 Project based on the
 [Computational Molecular Science Python Cookiecutter](https://github.com/molssi/cookiecutter-cms) version 1.2.
+
+This package requires the following:
+  - numpy
+  - matplotlib
