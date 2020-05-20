@@ -9,6 +9,9 @@ Functions for visualization of molecules
 
 
 def draw_molecule(coordinates, symbols, draw_bonds=None, save_location=None, dpi=300):
+    if len(symbols) != len(coordinates):
+        raise Exception("Symbols and coordinates must have the same lenght")
+
     # Create figure
     fig = plt.figure()
     ax = fig.add_subplot(111, projection='3d')
