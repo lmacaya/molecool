@@ -1,12 +1,12 @@
 import numpy as np
-
 """
 This module is for functions which perform measurements.
 """
 
 
 def calculate_distance(rA, rB):
-    """Calculate the distance between two points.
+    """
+    Calculate the distance between two points.
 
     Parameters
     ----------
